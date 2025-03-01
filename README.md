@@ -19,6 +19,7 @@ CMD ["sh", "-c", "echo hello from $HOSTNAME"]
 ```
 
 În același director de proiect, am creat directorul site. În acest director, am adăugat fișierul index.html cu un conținut arbitrar.
+
    3. Pornire și testare
 Am deschis terminalul în directorul containers03 și am executat comanda:
 
@@ -27,6 +28,7 @@ docker build -t containers03 .
 ```
 
 *Cât timp a durat crearea imaginii?*
+
     13.8s
 
 Apoi, am executat comanda pentru a porni containerul:
@@ -79,6 +81,6 @@ exit
 
 
 ## Bibliografie
-    - https://moodle.usm.md/mod/assign/view.php?id=282515
-    - https://www.docker.com/
+    https://moodle.usm.md/mod/assign/view.php?id=282515
+    https://www.docker.com/
 
