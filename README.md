@@ -1,4 +1,3 @@
-# container-03
 # Denumirea lucrării de laborator: Prima aplicație Docker
 
 ## Scopul lucrării: Aceasta lucrare de laborator familiarizează cu elementele de bază ale containerizării și pregătește spațiul de lucru pentru următoarele lucrări de laborator.
