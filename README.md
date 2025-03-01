@@ -50,11 +50,10 @@ exit
 
 
 ## Concluzii
-<ol>
-Am învățat cum să creăm și să gestionăm un container Docker folosind un fișier Dockerfile.
-Am explorat procesul de copiere a fișierelor într-un container și modul în care acestea sunt accesate.
-Am utilizat comenzi Docker esențiale pentru construire, rulare și administrare a containerelor.
-</ol>
+    - Am învățat cum să creăm și să gestionăm un container Docker folosind un fișier Dockerfile.
+    - Am explorat procesul de copiere a fișierelor într-un container și modul în care acestea sunt accesate.
+    - Am utilizat comenzi Docker esențiale pentru construire, rulare și administrare a containerelor.
+
 
 Bibliografie
 https://moodle.usm.md/mod/assign/view.php?id=282515
