@@ -37,13 +37,15 @@ cd /var/www/html/
 ls -l  
 
 *Ce este afișat pe ecran?*
+
+    ```bash
     root@6fd7878f0798:/# cd /var/www/html/
     root@6fd7878f0798:/var/www/html# cd /var/www/html/
     root@6fd7878f0798:/var/www/html# ls -l
     total 0
     -rwxr-xr-x 1 root root 0 Mar  1 07:59 index.html
     root@6fd7878f0798:/var/www/html#
-
+    ```
 
 În final, am închis fereastra cu comanda:
 exit  
