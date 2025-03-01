@@ -11,30 +11,49 @@ Am descărcat și instalat Docker Desktop.
    2. Executare
 Am creat un repozitoriu containers03 și l-am clonat pe computer.
 În directorul containers03, am creat fișierul Dockerfile cu următorul conținut:
+
+```bash
 FROM debian:latest  
 COPY ./site/ /var/www/html/  
 CMD ["sh", "-c", "echo hello from $HOSTNAME"]  
+```
+
 În același director de proiect, am creat directorul site. În acest director, am adăugat fișierul index.html cu un conținut arbitrar.
    3. Pornire și testare
 Am deschis terminalul în directorul containers03 și am executat comanda:
+
+```bash
 docker build -t containers03 .
+```
+
 *Cât timp a durat crearea imaginii?*
     13.8s
 
 Apoi, am executat comanda pentru a porni containerul:
-docker run --name containers03 containers03
-*Ce a fost afișat în consolă?*
-    hello from 61ac519f0c59
 
+```bash
+docker run --name containers03 containers03
+```
+
+*Ce a fost afișat în consolă?*
+
+```bash
+    hello from 61ac519f0c59
+```
 
 
 Pentru a șterge containerul și a-l porni din nou, am rulat comenzile:
+
+```bash
 docker rm containers03  
 docker run -ti --name containers03 containers03 bash  
-În fereastra deschisă, am executat comenzile:
+```
 
+În fereastra deschisă, am executat comenzile:
+```bash
 cd /var/www/html/  
 ls -l  
+```
 
 *Ce este afișat pe ecran?*
 
@@ -48,8 +67,10 @@ ls -l
     ```
 
 În final, am închis fereastra cu comanda:
-exit  
 
+```bash
+exit  
+```
 
 ## Concluzii
     - Am învățat cum să creăm și să gestionăm un container Docker folosind un fișier Dockerfile.
@@ -58,6 +79,6 @@ exit
 
 
 Bibliografie
-https://moodle.usm.md/mod/assign/view.php?id=282515
-https://www.docker.com/
+    - https://moodle.usm.md/mod/assign/view.php?id=282515
+    - https://www.docker.com/
 
