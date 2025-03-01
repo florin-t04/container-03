@@ -6,9 +6,9 @@
 ## Sarcina: Instalarea Docker Desktop și verificarea funcționării acestuia.
 
 ## Descrierea executării lucrării cu răspunsuri la întrebări:
-   1. Pregătire
+   **1. Pregătire**: 
 Am descărcat și instalat Docker Desktop. 
-   2. Executare
+   **2. Executare**:
 Am creat un repozitoriu containers03 și l-am clonat pe computer.
 În directorul containers03, am creat fișierul Dockerfile cu următorul conținut:
 
@@ -20,7 +20,7 @@ CMD ["sh", "-c", "echo hello from $HOSTNAME"]
 
 În același director de proiect, am creat directorul site. În acest director, am adăugat fișierul index.html cu un conținut arbitrar.
 
-   3. Pornire și testare
+   **3. Pornire și testare**:
 Am deschis terminalul în directorul containers03 și am executat comanda:
 
 ```bash
